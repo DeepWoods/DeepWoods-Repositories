@@ -1,11 +1,7 @@
 # DeepWoods Repositories
 This is a centralized location to find information on the various options available to use images and packages provided by DeepWoods(me).
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information on how to access DeepWoods repositories for docker, debian and rpm packages.
-## Docker Repos
-[NxFilter](https://github.com/DeepWoods/nxfilter-docker)
-
-[NxCloud](https://github.com/DeepWoods/nxcloud-docker)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information on how to access DeepWoods repositories rpm and debian packages.
 
 ## Debian Repo
 Update repo information and make sure the required base packages are available.
