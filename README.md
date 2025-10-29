@@ -1,10 +1,10 @@
 # DeepWoods Repositories
-This is a centralized location to find information on the various options available to use images and packages provided by DeepWoods(me).
+This is a centralized location to find information on the various options available to use repositories and packages provided by DeepWoods(me).
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information on how to access DeepWoods repositories rpm and debian packages.
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information on how to access rpm and debian packages from DeepWoods repositories.
 
 ## Debian Repo
-Update repo information and make sure the required base packages are available.
+Update base repo information and make sure the required base packages are available.
 ```
 sudo apt update && sudo apt install -y curl gnupg
 ```
@@ -20,25 +20,27 @@ Install NxFilter and dependencies with apt:
 ```
 apt install nxfilter
 ```
+Configure NxFilter per the documentation: [NxFilter tutorial](https://nxfilter.org/tutorial.html)
+
 To remove:
 ```
 apt autoremove nxfilter
 ```
 
 ## RPM Repo
-1. Install the DeepWoods repository package:
+Install the DeepWoods repository package:
 ```
 yum install https://rpm.deepwoods.net/deepwoods-release-7-0.noarch.rpm
 ```
-2. Install NxFilter and answer yes to import the DeepWoods repository GPG key when prompted:
+Install NxFilter and answer yes to import the DeepWoods repository GPG key when prompted:
 ```
 yum install nxfilter
 ```
-3. Check if NxFilter is running.  Start it if it isn't.
+Check if NxFilter is running.  Start it if it isn't.
 
 `systemctl status nxfilter` to verify NxFilter is running.  `systemctl start nxfilter` to start it if it is not already running.
 
-4. Configure NxFilter per the documentation: [NxFilter tutorial](https://nxfilter.org/tutorial.html)
+Configure NxFilter per the documentation: [NxFilter tutorial](https://nxfilter.org/tutorial.html)
 
 > [!NOTE]
 > The RPM installs NxFilter files to a non-standard location of /nxfilter in the filesystem root directory and enables system services(/etc/systemd/system/nxfilter.service) by default.
