@@ -1,5 +1,5 @@
 <h1 align="center">
-  :white_circle:&nbsp;&nbsp;  DeepWoods Repositories  &nbsp;&nbsp;:white_circle:
+  :green_circle:&nbsp;&nbsp;  DeepWoods Repositories  &nbsp;&nbsp;:green_circle:
 </h1>
 <h5> This is a centralized location to find information on the various options available to use repositories and packages provided by DeepWoods(me).</h5><br/><br/>
 
