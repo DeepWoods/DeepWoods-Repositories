@@ -4,9 +4,9 @@
 <h5> This is a centralized location to find information on the various options available to use repositories and packages provided by DeepWoods(me).</h5><br/><br/>
 
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information on how to access rpm and debian packages from DeepWoods repositories.
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information on how to access rpm and debian based packages from DeepWoods repositories.
 
-# $\color{SeaGreen}{Debian\ Repo}$
+# $\color{SeaGreen}{Deb\ Repo}$
 Update base repo information and make sure the required base packages are available.
 ```
 sudo apt update && sudo apt install -y curl gnupg
