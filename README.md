@@ -29,6 +29,8 @@ To remove:
 ```
 apt autoremove nxfilter
 ```
+
+Browseable DEB site: [Here](https://debian.deepwoods.net)
 <br/><br/>
 
 
@@ -54,4 +56,8 @@ Check if NxFilter is running.&nbsp;&nbsp;Start it if it isn't.
 <br/>
 
 Configure NxFilter per the documentation: [NxFilter tutorial](https://nxfilter.org/tutorial.html) 
+
+<br/>
+
+Browseable RPM site: [Here](https://rpm.deepwoods.net)
 
